@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Rubik";
+  src: url(../fonts/Rubik-VariableFont_wght.ttf);
+}
+
+html {
+  scrollbar-color: var(--accent-color) var(--default-color);
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik" !important;
+  color: var(--default-color);
+  background-color: var(--background-color);
+}
+
+.container {
+  max-width: 960px;
+}
+
+:root {
+  --background-color: #ffffff;
+  --default-color: #ffffff;
+  --heading-color: #212529;
+  --accent-color: #0d6efd;
+  --vk-color: #0077ff;
+  --youtube-color: #ff0000;
+}
+
+:root {
+  --nav-color: #ffffff;
+  --nav-hover-color: #0d6efd;
+  --nav-mobile-background-color: #ffffff;
+  --nav-dropdown-background-color: #ffffff;
+  --nav-dropdown-color: #444444;
+  --nav-dropdown-hover-color: #0d6efd;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:hover {
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+}
+
+@media (min-width: 1200px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .container-fluid ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .navbar li {
+    position: relative;
+  }
+
+  .navbar a,
+  .navbar a:focus {
+    color: var(--nav-color);
+    padding: 0 15px;
+    font-size: 18px;
+    font-family: var(--nav-font);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+    transition: 0.3s;
+  }
+
+  .navbar li:last-child a {
+    padding-right: 0;
+  }
+
+  .navbar li:hover > a,
+  .navbar .active,
+  .navbar .active:focus {
+    border-left: 6px solid var(--nav-hover-color);
+    color: var(--nav-hover-color);
+  }
+}
