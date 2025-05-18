@@ -13,13 +13,14 @@
         <div class="col-lg-6">
           <div class="row">
             <div class="col-lg-6 image-text-center">
-              <img v-once src="../../assets/images/person.png" />
+              <img v-once src="../../assets/images/person.jpg" />
             </div>
             <div class="col-lg-6">
               <div class="content-bottom">
                 <h1 class="title">Дмитрий Маляев</h1>
                 <span class="text"
-                  >Директор и тренер велошколы "CENTR". Профессиональный BMX райдер.</span
+                  >Директор и тренер велошколы "CENTR". Профессиональный BMX
+                  райдер.</span
                 >
               </div>
             </div>

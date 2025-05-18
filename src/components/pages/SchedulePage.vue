@@ -5,7 +5,7 @@
         <div class="col-lg-12 text-center">
           <span></span>
           <div class="schedule-content">
-            <div class="schedule-title">Расписание<br />и Стоимость</div>
+            <div class="schedule-title">Расписание<br />и Стоимость *</div>
             <div class="home-schedule-slider">
               <div class="single-item">
                 <div class="about-image container">
@@ -297,6 +297,11 @@
                 </div>
               </div>
             </div>
+            <i
+              >* На сайте указаны примерное расписание и ориентировочные цены
+              занятий. Точное время и стоимость уточняйте, напрямую связавшись с
+              нами.</i
+            >
           </div>
         </div>
       </div>

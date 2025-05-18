@@ -1,6 +1,6 @@
 {
-  "name": "centr-velo",
-  "version": "0.1.0",
+  "name": "velo-centr",
+  "version": "0.1.1",
   "private": true,
   "type": "module",
   "scripts": {
